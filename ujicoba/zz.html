@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+	.container header{
+
+		display: flex;
+		}
+
+	.container  div{
+
+		border: 1px solid black;
+		padding: 30px;
+
+	}
+
+	header{
+
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		text-align: center;
+
+	}
+
+	.header1{
+
+		flex: 3;
+
+
+	}
+
+
+
+	.header2{
+
+		flex: 9;
+
+	}
+
+
+	.container2 content{
+
+		display: flex;
+		height: 500px;
+
+	}
+
+
+
+	.container2  div{
+
+		border: 1px solid black;
+		padding: 30px;
+
+	}
+
+	content{
+
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+
+	}
+
+	.body1{
+
+		flex: 2;
+
+	}
+
+.content-mini-1,.content-mini-2,.content-mini-3{
+
+	margin-top:20px;
+
+}
+
+	.body1 .content-mini{
+
+		flex: 2;
+
+	}
+
+	.content-mini{
+
+		flex-direction: column;
+		margin:50px;
+
+	}
+
+	.body2{
+
+		flex: 8;
+
+	}
+
+	.body3{
+
+		flex: 2;
+
+	}
+
+	.content-img-1,.content-img-2,.content-img-3{
+
+		margin-top: 40px;
+
+	}
+
+
+	.container3  div{
+
+		border: 1px solid black;
+		padding: 10px;
+
+	}
+
+	
+
+	footer .kotak{
+
+	display: flex;
+
+	}
+
+
+	.kotak{
+
+		width: 100%;
+		flex-direction: row;
+		justify-content: center;
+		padding: 20px;
+		border: 1px solid black;
+	}
+
+@media screen and (max-width: 800px) {
+
+
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+	.container header{
+
+		display: flex;
+		}
+
+	.container  div{
+
+		border: 1px solid black;
+		padding: 30px;
+
+	}
+
+	header{
+
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+
+	}
+
+	.header1{
+
+		flex: 3;
+
+
+	}
+
+
+
+	.header2{
+
+		flex: 9;
+
+	}
+
+
+	.container2  div{
+
+		border: 1px solid black;
+		padding: 30px;
+
+	}
+
+	content{
+
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+
+	}
+
+	.body1{
+
+		flex: 2;
+		margin-top: 475px;
+
+	}
+
+.content-mini-1,.content-mini-2,.content-mini-3{
+
+	margin-top:20px;
+
+}
+
+	.body1 .content-mini{
+
+		flex: 2;
+
+	}
+
+	.content-mini{
+
+		flex-direction: column;
+		margin:50px;
+
+	}
+.body2{
+
+	
+
+	}
+
+	.body3{
+
+		flex: 2;
+	}
+
+	.content-img-1,.content-img-2,.content-img-3{
+
+		margin-top: 40px;
+
+	}
+
+
+	.container3  div{
+
+		border: 1px solid black;
+		padding: 10px;
+
+	}
+
+
+	footer .kotak{
+
+	display: flex;
+	margin-top: 475px;
+
+	}
+
+
+	.kotak{
+
+		width: 100%;
+		flex-direction: row;
+		justify-content: center;
+		padding: 20px;
+		border: 1px solid black;
+	}
+
+}
+
+</style>
+<body>
+
+<div class="container">
+	<header>
+		<div class="header1">
+			<h3>Logo</h3>
+		</div>
+		<div class="header2">
+			<h3>Navbar</h3>
+		</div>
+
+	</header>
+	</div>
+<div class="container2">
+	<content>
+		<div class="body1">
+				<span class="content-mini">
+				<h3>Content mini</h3>
+				<div class="content-mini-1">
+					<h3>content-1</h3>
+				</div>
+				<div class="content-mini-2">
+					<h3>content-2</h3>
+				</div>
+					<div class="content-mini-3">
+					<h3>content-2</h3>
+				</div>
+				</span>
+		</div>
+			<div class="body2">
+			<h3>Content-isi</h3>
+		</div>
+			<div class="body3">
+			<span class="content-img">
+				<h3>content-img</h3>
+				<div class="content-img-1">
+					<h3>content-img-1</h3>
+				</div>
+				<div class="content-img-2">
+					<h3>content-img-2</h3>
+				</div>
+				<div class="content-img-3">
+					<h3>content-img-3</h3>
+				</div>
+			</span>
+		</div>
+	</content>
+		</div>
+		<div class="container3">
+	<footer>
+		<span class="kotak">
+			<div class="icon-1">
+				<h3>icon-1</h3>
+			</div>
+			<div class="icon-2">
+				<h3>icon-2</h3>
+			</div>
+			<div class="icon-3">
+				<h3>icon-3</h3>
+			</div>
+		
+		</span>
+
+
+	</footer>
+</div>
+</body>
+</html>

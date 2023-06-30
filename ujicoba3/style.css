@@ -1,0 +1,18 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.flex{
+
+	border:none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+.body1,.body2,.body3,.body4,.body5,.body6,.body7,.body8
+

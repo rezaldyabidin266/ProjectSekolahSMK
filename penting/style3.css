@@ -1,0 +1,232 @@
+html, body{
+
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+  background-image:url(gambar/batik.jpg);
+    width: 1343px;
+}
+
+
+
+.judul {
+
+    border: 3px solid blue;
+    width: 180px;
+    height: 100px;
+    background: black;
+    padding: 10px;
+    position: relative;
+}
+
+
+.judul h2{
+
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top:0px;
+    text-decoration: underline;
+    left:50px;
+}
+
+.navigation{
+
+    order:2;
+    position: absolute;
+    top:0;
+    left: 200px;
+}
+ul{
+
+  position: relative;
+  top:5px;
+  width: 500px;
+  height: 30px;
+  }
+  
+
+li{
+
+    display: inline-block;
+    margin-left:15px;
+    transition: 1s;
+}
+
+
+li:hover{
+
+  border:2px solid blue;
+  background: black;
+  padding: 8px;
+}
+
+li a{
+
+    font-size: 18px;
+    color:black;
+    font-family: sans-serif;
+
+}
+
+li a:hover{
+
+  color:white;
+  text-decoration: none;
+}
+
+
+.skill{
+    width:100%;
+    position:relative;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    top:40px;
+  }
+  
+  .skill h2{
+  
+
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    font-weight:bold;
+    font-family:sans-serif;
+    text-decoration: underline;
+  
+  }
+  
+  
+  .boxskill{
+    box-sizing: border-box;
+    width:100%;
+    margin:20px 0;
+  }
+  
+  .boxskill p{
+    color:black;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  .boxskill p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+    right: 60px;
+  }
+  .bagan{
+
+    box-sizing: border-box;
+    border-radius: 2px;
+    border:1px solid black;
+    padding: 1px;
+  }
+  .balok1{
+    background: blue;
+    width:78%;
+    height: 10px;
+    transition: 2s;
+    animation: anm1 2s infinite; 
+    border:2px solid blue;
+  }
+  
+
+  
+  .balok2{
+    background: blue;
+    width:78%;
+    height: 10px;
+    transition: 2s;
+    animation: anm2 2s infinite; 
+    border:2px solid blue;
+  }
+  
+
+  .balok3{
+    background: blue;
+    width:73%;
+    height: 10px;
+    transition: 2s;
+    animation: anm3 2s infinite; 
+    border:2px solid blue;
+  }
+  
+  
+
+  
+  
+  .balok4{
+    background: blue;
+    width:75%;
+    height: 10px;
+    transition: 2s;
+    animation: anm4 2s infinite; 
+    border:2px solid blue;
+  }
+
+  .balok5{
+    background: blue;
+    width:78%;
+    height: 10px;
+    transition: 2s;
+    animation: anm4 2s infinite; 
+    border:2px solid blue;
+  }
+
+  .balok6{
+    background: blue;
+    width:78%;
+    height: 10px;
+    transition: 2s;
+    animation: anm4 2s infinite; 
+    border:2px solid blue;
+  }
+
+
+  
+  .satu{
+  
+    border: 2px solid black;
+    width: 90%;
+    background: white;
+    position: relative;
+    left: 30px;
+  }
+
+  
+
+
+  .edit {
+
+    border: 3px solid blue;
+    width: 40px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    position: relative;
+    left: 1200px;
+    top:-110px;
+}
+
+
+.edit a{
+
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top:10px;
+    text-decoration: underline;
+    left:13px;
+}

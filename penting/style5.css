@@ -1,0 +1,173 @@
+html, body{
+
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+    background-image:url(gambar/batik.jpg);
+    width: 1343px;
+}
+
+
+
+.judul {
+
+    border: 3px solid blue;
+    width: 180px;
+    height: 100px;
+    background: black;
+    padding: 10px;
+    position: relative;
+}
+
+
+.judul h3{
+
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:10px;
+    text-decoration: underline;
+    left:18px;
+}
+
+.navigation{
+
+    order:2;
+    position: absolute;
+    top:0;
+    left: 200px;
+}
+
+
+ul{
+
+    position: relative;
+    top:5px;
+    width: 500px;
+    height: 30px;
+
+}
+
+
+
+li{
+
+    display: inline-block;
+    margin-left:15px;
+    transition: 1s;
+}
+
+li:hover{
+
+    border:2px solid blue;
+    background: black;
+    padding: 8px;
+}
+
+li a{
+
+    font-size: 18px;
+    color:black;
+    font-family: sans-serif;
+}
+
+li a:hover{
+
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.edit {
+
+    border: 3px solid blue;
+    width: 40px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    position: relative;
+    left: 1200px;
+    top:-110px;
+}
+
+
+.edit a{
+
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top:10px;
+    text-decoration: underline;
+    left:13px;
+}
+
+h2{
+
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr{
+
+    background: blue;
+    padding: 2px;
+    width: 250px;
+    height: 1px;
+    margin-top:-8px;
+}
+
+.pengalaman{
+    
+    position: relative;
+    color: black;
+    font-size: 18px;
+    top:20px;
+    left:300px;;
+}
+
+.hobby{
+
+    margin-top:50px;
+
+
+}
+
+.hobby h2{
+
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+
+
+
+.hobby img{
+
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 540px;
+    top:500px;
+    
+}
+
+.volly{
+
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top:580px;
+    left: 680px;
+    margin-bottom: 50px;
+}
